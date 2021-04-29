@@ -1,0 +1,105 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <title>Example 1</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+     #footer {
+       background-color: #C8C8C8;
+       text-align: right;
+     }
+    </style>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+      <a class="navbar-brand" href="#">Project Explorer</a>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search Projects" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main">
+        <div class="mx-auto" style="width: 800px;">
+            <br><br><br>
+            <h1>Signup</h1>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="text">First Name</label>
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="text">Last Name</label>
+                    <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="inputProg">Program</label>
+                    <select id="inputProg" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                </div>
+              <div class="form-group col-md-4">
+                <label for="inputMatNo">Matriculation No.</label>
+                <input type="text" class="form-control" id="inputMatNo" placeholder="e.g. 16/20302">
+              </div>
+              
+              <div class="form-group col-md-4">
+                <label for="inputYear">Program</label>
+                <select id="inputYear" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                </select>
+              </div>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Sign up</button>
+        </form>
+          </div>
+        <br><br>
+        
+
+    </main>
+
+    <footer class="container" id="footer">
+      <p>Project Explorer &copy; 2020-Edconnet</p>
+    </footer>
+
+
+  </body>
+</html>
