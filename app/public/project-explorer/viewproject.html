@@ -39,28 +39,73 @@
         </ul>
       </div>
     </nav>
-    <main>
-        <div>
-            <h1>Project 1</h1>
-            <a href="editproject.html">Edit Project</a>
-            <ul>
-                <li>Created by: Jane Doe</li>
-                <li>Date Created: 00/00/0000</li>
-                <li>Last Updated: 01/01/0001</li>
-            </ul>
+    <main class="container" id="container-profile">
+      <div><br><br><br>
+          <h5>John Doe</h5>john.doe@gmail.com
+          <div class="container" id="row-profile">
+              <div class="row">
+                  <div class="col">
+                    Created By
+                  </div>
+                  <div class="col">
+                    Date Created
+                  </div>
+                  <div class="col">
+                    Last Updated
+                  </div>
+                  <div class="col">
+                    <div class="d-flex flex-row-reverse bd-highlight">
+                      <a class="btn btn-primary" href="editproject.html" role="button">Edit Project</a>
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col" class="text-left">
+                  Ade Chris
+                </div>
+                <div class="col" class="text-left">
+                  21/02/2021
+                </div>
+                <div class="col" class="text-left">
+                  30/04/2021
+                </div>
+                <div class="col" class="text-left">
+                  
+                </div>
+          </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Project Abstract</h3><hr>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            <form>
+                <label for="comments">Comments</label></br>
+                <textarea type="textarea" name="comments" class="form-control" label="Leave a comment "></textarea>
+                <button type="submit" class="btn btn-primary">Save</button><br>
+            </form> 
+          </div>
+          <div class="col">
+            <h3>Project Details</h3><hr>
+            <div class="card">
+              <h5 class="card-header">Authors</h5>
+              <div class="card-body">
+                <p class="card-text">Ade Chris</p>
+              </div>
+              <div class="card">
+                <h5 class="card-header">Project Files</h5>
+                <div class="card-body">
+                  <p class="card-text text-center">No file Upload yet</p>
+                </div>
+            </div>
+          </div>
         </div>
-        <div>
-            <h1>Project Abstract</h1>
-            <p>Lorem ipsum</p>
         </div>
-        <div>
-            <h1>Project Details</h1>
-            <ul>
-                <li>Authors: John Doe, Jane Doe</li>
-                <li>Tags: 00/00/0000</li>
-                <li>Project Files: <a href="#">File 1</a>, <a href="#">File 2</a></li> 
-            </ul> 
+      </div>
         </div>
-        </main>
+    </main>
+    <footer class="container" id="footer">
+      <p>Project Explorer &copy; 2020-Edconnet</p>
+    </footer>
 </body>
 </html>
