@@ -39,31 +39,74 @@
         </ul>
       </div>
     </nav>
-    <main>
-        <div>
-            <h1>Project 1</h1>
-            <ul>
-                <li>Created by: Computer Science</li>
-                <li>Date Created: 00/00/0000</li>
-                <li>Last Updated: 01/01/0001</li>
-            </ul>
-        </div>
-        <div>
-            <h1>Edit Project</h1>
+    <main class="container" id="container-profile">
+      <div><br><br><br>
+          <h5>John Doe</h5>john.doe@gmail.com
+          <div class="container" id="row-profile">
+              <div class="row">
+                  <div class="col">
+                    Created By
+                  </div>
+                  <div class="col">
+                    Date Created
+                  </div>
+                  <div class="col">
+                    Last Updated
+                  </div>
+                  <div class="col">
+                    <div class="d-flex flex-row-reverse bd-highlight">
+                      <button type="submit" class="btn btn-primary">View Project</button>
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  Ade Chris
+                </div>
+                <div class="col">
+                  21/02/2021
+                </div>
+                <div class="col">
+                  30/04/2021
+                </div>
+          </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Edit Project</h3><hr>
             <form>
-                <label for="name">Project Name:</label></br>
-                <input type="text" name="name" label="Project Name: "> </br></br>
-                <label for="abstract">Project Abstract:</label></br>
-                <textarea type="textarea" name="abstract" label="Project Abstract: "></textarea> </br></br>
-                <label for="authors">Authors:</label></br>
-                <input type="text" name="authors" label="Authors: "> </br></br>
-                <label for="tags">Tag(s):</label></br>
-                <input type="text" name="tags" label="Tag(s): "> </br></br>
-                <label for="projectFile">Upload Files:</label></br>
-                <input type="file" name="projectFile" label="Upload Files: "> </br></br>
-                <input type="submit" >
+              <label for="name">Project Name:</label></br>
+              <input type="text" name="name" class="form-control" label="Project Name: "> </br>
+              <label for="abstract">Project Abstract:</label></br>
+              <textarea type="textarea" name="abstract" class="form-control" label="Project Abstract: "></textarea> </br>
+              <label for="authors">Authors:</label></br>
+              <input type="text" name="authors" class="form-control" label="Authors: "> </br>
+              <label for="tags">Tag(s):</label></br>
+              <input type="text" name="tags" class="form-control" label="Tag(s): "> </br>
+              <button type="submit" class="btn btn-primary">Save</button><br>
             </form>
+          </div>
+          <div class="col">
+            <h3>Manage Project Files</h3><hr>
+            <form>
+              <label for="projectFile">Upload Files:</label></br>
+              <input type="file" name="projectFile" class="form-control" label="Upload Files: "> </br>
+            </form>
+            <div class="card">
+              <h5 class="card-header">Project Files</h5>
+              <div class="card-body text-center">
+                <p class="card-text">No file upload yet</p>
+              </div>
+            </div>
+          </div>
         </div>
-        </main>
+        </div>
+      </div>
+        </div>
+    </main>
+    <footer class="container" id="footer">
+      <p>Project Explorer &copy; 2020-Edconnet</p>
+    </footer>
 </body>
 </html>
